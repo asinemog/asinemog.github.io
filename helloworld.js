@@ -20,3 +20,11 @@ function getfib(){
 function goBack(){
     window.history.back();
 }
+
+function drawCanvas(){
+    var c = document.getElementById("testCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+}
