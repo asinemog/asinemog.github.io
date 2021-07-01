@@ -16,3 +16,7 @@ function getfib(){
 
     document.getElementById("cummies").innerHTML = y;
 }
+
+function goBack(){
+    window.history.back();
+}
